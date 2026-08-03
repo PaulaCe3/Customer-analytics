@@ -36,3 +36,4 @@ La curva ROC permite comparar la capacidad de los modelos para diferenciar entre
 - Seaborn
 - scikit-learn
 - Jupyter Notebook
+
