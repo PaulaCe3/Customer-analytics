@@ -1,6 +1,6 @@
-﻿# Análisis de clientes
+﻿# Customer Analytics
 
-**Proyecto de portafolio de Ciencia de Datos desarrollado por Paula Ceballos.**
+Proyecto de portafolio de Ciencia de Datos desarrollado por Paula Ceballos.
 
 Análisis de datos orientado a estudiar el comportamiento de compra de los clientes de una tienda de ropa, identificar patrones de consumo, segmentar clientes y explorar factores relacionados con el abandono.
 
@@ -10,9 +10,7 @@ Análisis de datos orientado a estudiar el comportamiento de compra de los clien
 
 El siguiente gráfico compara la evolución mensual de las ventas registradas durante 2022, 2023 y 2024, permitiendo observar variaciones y patrones entre los distintos años.
 
-<p align="center">
-  <img src="images/ventas_mensuales.png" alt="Ventas mensuales comparadas por año" width="100%">
-</p>
+![Ventas mensuales comparadas por año](imagenes/ventas_mensuales_por_anio.png)
 
 ---
 
@@ -20,9 +18,7 @@ El siguiente gráfico compara la evolución mensual de las ventas registradas du
 
 Este gráfico permite comparar el volumen de ventas correspondiente a cada categoría de producto.
 
-<p align="center">
-  <img src="images/ventas_categoria.png" alt="Ventas totales por categoría" width="100%">
-</p>
+![Ventas totales por categoría](imagenes/ventas_por_categoria.png)
 
 ---
 
@@ -30,9 +26,7 @@ Este gráfico permite comparar el volumen de ventas correspondiente a cada categ
 
 Este gráfico muestra cuántos clientes se encuentran en cada intervalo de tiempo desde su última compra, permitiendo identificar grupos con distinto nivel de actividad.
 
-<p align="center">
-  <img src="images/recencia_clientes.png" alt="Clientes según el tiempo desde su última compra" width="100%">
-</p>
+![Clientes según el tiempo desde su última compra](imagenes/recencia_clientes.png)
 
 ---
 
@@ -40,9 +34,7 @@ Este gráfico muestra cuántos clientes se encuentran en cada intervalo de tiemp
 
 La curva ROC permite comparar la capacidad de los modelos para diferenciar entre clientes con y sin riesgo de abandono.
 
-<p align="center">
-  <img src="images/curva_roc.png" alt="Curva ROC de los modelos de abandono" width="100%">
-</p>
+![Curva ROC de los modelos de abandono](imagenes/curva_roc_modelos.png)
 
 ---
 
@@ -55,11 +47,3 @@ La curva ROC permite comparar la capacidad de los modelos para diferenciar entre
 - Seaborn
 - scikit-learn
 - Jupyter Notebook
-
----
-
-## Autora
-
-**Paula Ceballos**
-
-Proyecto desarrollado como parte de mi portafolio de Ciencia de Datos.
