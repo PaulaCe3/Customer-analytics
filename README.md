@@ -1,33 +1,52 @@
-﻿# Customer Analytics
+﻿# Análisis de clientes
 
-**Proyecto de portfolio de Data Science desarrollado por Paula Ceballos.**
+**Proyecto de portafolio de Ciencia de Datos desarrollado por Paula Ceballos.**
 
-AnÃ¡lisis de datos orientado a estudiar el comportamiento de compra de los clientes de una tienda de ropa, identificar patrones de consumo, segmentar clientes y explorar factores relacionados con el abandono.
+Análisis de datos orientado a estudiar el comportamiento de compra de los clientes de una tienda de ropa, identificar patrones de consumo, segmentar clientes y explorar factores relacionados con el abandono.
 
-### EvoluciÃ³n mensual de las ventas
+---
 
-El siguiente grÃ¡fico compara la evoluciÃ³n mensual de las ventas registradas durante 2022, 2023 y 2024, permitiendo observar variaciones y patrones entre los distintos aÃ±os.
-![Ventas mensuales comparadas por aÃ±o](grafico_ventas.jpg)
+## Evolución mensual de las ventas
 
-### Ventas por categorÃ­a
+El siguiente gráfico compara la evolución mensual de las ventas registradas durante 2022, 2023 y 2024, permitiendo observar variaciones y patrones entre los distintos años.
 
-Este grÃ¡fico permite comparar el volumen de ventas correspondiente a cada categorÃ­a de producto.
+<p align="center">
+  <img src="images/ventas_mensuales.png" alt="Ventas mensuales comparadas por año" width="100%">
+</p>
 
-![Ventas por categorÃ­a](imagenes/ventas_por_categoria.png)
+---
 
-### Recencia de los clientes
+## Ventas por categoría
 
-Este grÃ¡fico muestra cuÃ¡ntos clientes se encuentran en cada intervalo de tiempo desde su Ãºltima compra, permitiendo identificar grupos con distinto nivel de actividad.
+Este gráfico permite comparar el volumen de ventas correspondiente a cada categoría de producto.
 
-![Clientes segÃºn el tiempo desde su Ãºltima compra](imagenes/recencia_clientes.png)
+<p align="center">
+  <img src="images/ventas_categoria.png" alt="Ventas totales por categoría" width="100%">
+</p>
 
-### ComparaciÃ³n de modelos de abandono
+---
+
+## Recencia de los clientes
+
+Este gráfico muestra cuántos clientes se encuentran en cada intervalo de tiempo desde su última compra, permitiendo identificar grupos con distinto nivel de actividad.
+
+<p align="center">
+  <img src="images/recencia_clientes.png" alt="Clientes según el tiempo desde su última compra" width="100%">
+</p>
+
+---
+
+## Comparación de modelos de abandono
 
 La curva ROC permite comparar la capacidad de los modelos para diferenciar entre clientes con y sin riesgo de abandono.
 
-![Curvas ROC de los modelos de abandono](imagenes/curva_roc_modelos.png)
+<p align="center">
+  <img src="images/curva_roc.png" alt="Curva ROC de los modelos de abandono" width="100%">
+</p>
 
-## TecnologÃ­as utilizadas
+---
+
+## Tecnologías utilizadas
 
 - Python
 - pandas
@@ -37,3 +56,10 @@ La curva ROC permite comparar la capacidad de los modelos para diferenciar entre
 - scikit-learn
 - Jupyter Notebook
 
+---
+
+## Autora
+
+**Paula Ceballos**
+
+Proyecto desarrollado como parte de mi portafolio de Ciencia de Datos.
